@@ -1,0 +1,50 @@
+[
+      {
+            "id": 1,
+            "title": "CARDIOLOGY",
+            "photo": "https://i.ibb.co/Nszmzzr/department-1.jpg",
+            "description": "Cardiac monitoring generally refers to continuous or intermittent monitoring of heart activity, generally by electrocardiography, with assessment of the patients condition relative to their cardiac rhythm. It is different from hemodynamic monitoring, which monitors the pressure and flow of blood within the cardiovascular system.",
+            "time": "2-4",
+            "doctor": "David Huchi"
+      },
+      {
+            "id": 2,
+            "title": "PULMONOLOGY",
+            "photo": "https://i.ibb.co/hBHsb6z/department-2.jpg",
+            "description": "Pulmonology is a field of medicine that focuses specifically on diagnosing and treating disorders of the respiratory system. Subspecialties of pulmonology include: interstitial lung disease, which focuses on lung diseases marked by persistent inflammation and scarring.",
+            "time": "2-4",
+            "doctor": "Lara Huchi"
+      },
+      {
+            "id": 3,
+            "title": "GYNECOLOGY",
+            "photo": "https://i.ibb.co/QQKBYbw/department-3.jpg",
+            "description": "Gynaecology or gynecology (see spelling differences) is the medical practice dealing with the health of the female reproductive system. ... The term means \"the science of women\". Its counterpart is andrology, which deals with medical issues specific to the male reproductive system.",
+            "time": "2-4",
+            "doctor": "Lara Denvar"
+      },
+      {
+            "id": 4,
+            "title": "NEUROLOGY",
+            "photo": "https://i.ibb.co/9N6xv9Q/department-4.jpg",
+            "description": "Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities.",
+            "time": "2-4",
+            "doctor": "Jordan Denial"
+      },
+      {
+            "id": 5,
+            "title": "UROLOGY",
+            "photo": "https://i.ibb.co/xhcVJ3G/department-5.jpg",
+            "description": "Urology is a part of health care that deals with diseases of the male and female urinary tract (kidneys, ureters, bladder and urethra). It also deals with the male organs that are able to make babies (penis, testes, scrotum, prostate, etc.).",
+            "time": "2-4",
+            "doctor": "Denial Den"
+      },
+      {
+            "id": 6,
+            "title": "DENTAL",
+            "photo": "https://i.ibb.co/DkDm6nN/department-6.jpg",
+            "description": "Dentistry, also known as dental medicine and oral medicine, is a branch of medicine that consists of the study, diagnosis, prevention, and treatment of diseases, disorders, and conditions of the oral cavity (the mouth), commonly in the dentition (development and arrangement of teeth) as well as the oral mucosa, and of adjacent and related structures and tissues",
+            "time": "2-4",
+            "doctor": "Sofia Sofi"
+      }
+]
