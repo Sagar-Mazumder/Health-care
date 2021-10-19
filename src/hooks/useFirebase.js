@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useHistory, useLocation } from "react-router";
 import initializeAuthentication from "../firebase/firebase.init";
 initializeAuthentication();
-
+// all type of firebase authentication 
 const useFirebase = () => {
 
       const location = useLocation();
@@ -21,21 +21,21 @@ const useFirebase = () => {
       const signInGoogle = () => {
             return signInWithPopup(auth, googleprovider)
                   .finally(() => { setLoading(false) });
-      }
+      };
       const handleNameChange = e => {
             setName(e.target.value);
-      }
+      };
       const handleEmailChange = e => {
             setEmail(e.target.value);
-      }
+      };
 
       const handlePasswordChange = e => {
             setPassword(e.target.value);
-      }
+      };
       const handleRegistration = e => {
             e.preventDefault();
             if (password.length < 6) {
-                  setError('Password Must be at least 6 characters long.')
+                  setError('Password Must be at least 6 characters long.');
                   return;
             }
             if (!/(?=.*[A-Z].*[A-Z])/.test(password)) {
@@ -51,18 +51,18 @@ const useFirebase = () => {
                   .catch(error => {
                         setError(error.message);
                   })
-      }
+      };
       const setUserName = () => {
             updateProfile(auth.currentUser, { displayName: name })
                   .then(result => { })
-      }
+      };
 
       const verifyEmail = () => {
             sendEmailVerification(auth.currentUser)
                   .then(result => {
                         console.log(result);
                   })
-      }
+      };
 
       const handleLogin = e => {
             e.preventDefault();
@@ -80,7 +80,7 @@ const useFirebase = () => {
                   .catch(error => {
                         setError(error.message);
                   })
-      }
+      };
 
       const logout = () => {
             setLoading(true);
@@ -89,7 +89,7 @@ const useFirebase = () => {
                         setUser({})
                   })
                   .finally(() => setLoading(false))
-      }
+      };
 
       useEffect(() => {
             const unsubscribe = onAuthStateChanged(auth, (user) => {
@@ -102,7 +102,7 @@ const useFirebase = () => {
                   setLoading(false);
             });
             return () => unsubscribe;
-      }, [])
+      }, []);
 
       return {
             user,

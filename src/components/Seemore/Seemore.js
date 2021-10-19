@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import './Seemore.css'
-
+// after click all details 
 const Seemore = () => {
       const { serviceId } = useParams();
       const [alldetails, setAllDetails] = useState([]);
@@ -15,7 +15,6 @@ const Seemore = () => {
       useEffect(() => {
             const singleDetails = alldetails.find(details => details.id === parseInt(serviceId));
             setSingleDetails(singleDetails)
-
       }, [alldetails])
       return (
             <div className="">

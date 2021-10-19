@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Carousel, Container } from 'react-bootstrap';
 import './Carosol.css'
-
+// banner section 
 const Carosol = () => {
       
       return (

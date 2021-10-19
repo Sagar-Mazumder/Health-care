@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
-
+// for new user 
 const Register = () => {
       const { signInGoogle, handleNameChange, handleEmailChange, handlePasswordChange, handleRegistration, error } = useAuth();
       const location = useLocation();

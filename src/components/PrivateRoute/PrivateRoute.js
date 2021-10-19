@@ -1,12 +1,14 @@
 import React from 'react';
 import { Redirect, Route } from 'react-router';
 import useAuth from '../../hooks/useAuth';
-
+// after clicking login page show 
 const PrivateRoute = ({ children, ...rest }) => {
       const { user, loading } = useAuth();
       if (loading) {
-            return <div className="spinner-border text-primary d-flex justify-content-center" role="status">
-                  <span className="visually-hidden d-flex justify-content-center">Loading...</span>
+            return <div className="d-flex justify-content-center">
+                  <div className="spinner-border text-primary" role="status">
+                        <span className="visually-hidden">Loading...</span>
+                  </div>
             </div>
       }
       return (
